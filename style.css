@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    overflow-x: hidden !important;
+}
+body{
+    overflow-x: hidden !important;
+}
+
+
+.card-cat{
+    position: relative;
+}
+.card-cat-scope{
+    position: relative;
+}
+.card-area-scope{
+    position: relative;
+}
+.card-ingred-scope{
+    position: relative;
+
+}
+.card-search{
+    position: relative;
+
+}
+.layer{
+ position: absolute;
+ top: 0;
+ right: 0;
+ left: 0;
+ bottom: 0;
+ background-color: rgba(255, 255, 255, 0.808);
+ transform: translatey(100%);
+ transition: .4s;
+}
+.card-cat:hover .layer{
+    transform: translatey(0%);
+
+}
+.card-cat-scope:hover .layer{
+    transform: translatey(0%);
+
+}
+.card-area-scope:hover .layer{
+    transform: translatey(0%);
+
+}
+.card-ingred-scope:hover .layer{
+    transform: translatey(0%);
+
+}
+.card-search:hover .layer{
+    transform: translatey(0%);
+
+}
+.scr{
+    background-color: rgb(8, 117, 30);
+    color: white;
+    margin: 5px;
+    padding: 4px;
+    border-radius: 5px;
+}
+.yout{
+    background-color: rgb(124, 19, 33);
+    color: white;
+    margin: 5px;
+    padding: 4px;
+    border-radius: 5px;
+}
+.res {
+background-color: rgb(228, 178, 228);
+color: black;
+margin: 5px;
+padding: 4px;
+border-radius: 5px;
+}
+.tag {
+background-color: rgb(141, 173, 219);
+color: black;
+margin: 5px;
+padding: 4px;
+border-radius: 5px;
+}
+.btn-primary{
+    background-color: brown;
+    border: none;
+    width: 150px;
+}
+.btn-primary:hover{
+    background-color: rgb(127, 19, 19);
+}
